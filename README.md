@@ -2,7 +2,7 @@
 Examen Febrero 2024
 
 ## backend
-
+Clone bakcend repository `git clone https://github.com/AlferDuran/backend.git`
 Go to backend folder 
 `\cd .\backend\`
 
