@@ -12,10 +12,11 @@ type ColorPickerProps = {
 
 const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   return (
-    <div data-testid={props.label} style={{paddingBottom:'15px'}}>
+    <div data-testid={props.label} style={{ paddingBottom: "15px" }}>
       <Text weight="bold">{props.label}</Text>
       <br />
       <Select
+        data-testid={props.label+'-select'}
         style={{
           backgroundColor: props.chosenColor?.hex,
           color: pickTextColorBasedOnBgColorAdvanced(

@@ -57,7 +57,7 @@ const Calculator: React.FC = () => {
   });
 
   return (
-    <Box>
+    <Box data-testid="calculator-page">
       <Box flex direction="row" justify="center" gap="40px" wrap>
         <ColorPicker
           label="Band A"
