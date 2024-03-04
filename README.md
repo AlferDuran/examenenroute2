@@ -8,6 +8,8 @@ Go to backend folder
 
 Install the modules with `npm i`, go to the npm doc if you don't have npm installed
 
+Run the unit tests `npm run test`
+
 Run `npm run start` to start the backend on port 3001 feel free to change the port in the main.ts file
 
 The commit has already a datbase with data, no need to add data unless you delete the databse file, it uses sqlite by default but you can change it o point other datbases thanks to TypeORM, use get /colors/seeder to seed the database
@@ -19,7 +21,7 @@ Go to ui folder
 
 Install the modules with `npm i`, go to the npm doc if you don't have npm installed 
 
-Run the unit tests `npm run test:unit` it olny has unit tests for the class, you can see them on `IOhmValueCalculator.spec.ts`
+Run the unit tests `npm run test`
 
 Use `npm run start` to start the development server on port 3000, if this port is used you can use another port
 
