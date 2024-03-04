@@ -199,7 +199,7 @@ const ColorCrud: React.FC<ColorCrudProps> = (props) => {
             size: "50px",
           },
           {
-            property: "edit",
+            property: "delete",
             header: "Delete",
             render: (data: Color) => (
               <Button
